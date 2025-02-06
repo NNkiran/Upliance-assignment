@@ -1,0 +1,41 @@
+.user-form-container {
+    width: 100%;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background: #ccc;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
